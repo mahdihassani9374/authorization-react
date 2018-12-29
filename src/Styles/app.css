@@ -1,0 +1,49 @@
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/IRANSans4/WebFonts/fonts/eot/IRANSansWeb_Medium.eot');
+    src: url('../fonts/IRANSans4/WebFonts/fonts/eot/IRANSansWeb_Medium.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
+    url('../fonts/IRANSans4/WebFonts/fonts/woff2/IRANSansWeb_Medium.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
+    url('../fonts/IRANSans4/WebFonts/fonts/woff/IRANSansWeb_Medium.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/IRANSans4/WebFonts/fonts/ttf/IRANSansWeb_Medium.ttf') format('truetype');
+}
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: IRANSans !important;
+    font-size: 12px;
+   
+}
+.header {
+    height: 100px;
+    background-color: #00ADFF;
+    color: #fff;
+}
+
+.wraper {
+    min-height:  calc(100vh - 322px);
+    width: 100%;
+    padding: 15px 5px;
+}
+
+.footer {
+    height: 250px;
+    background-color: #222;
+    color: #fff;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-img-top {
+    max-height: 185px;
+}
+
+.img-loader {
+    max-width: 300px;
+}
